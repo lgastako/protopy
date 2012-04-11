@@ -1,10 +1,10 @@
 #!/bin/sh
 
-if [ "$*" = "" ]; then
+if [ "$1" = "" ]; then
     echo "You must specify exactly one name on the command line."
     exit
 fi
 
-name=$0
+PROJECT_NAME="$1"
 
-perl -pi -e "s/{{NAME}}/$name" setup.py
+perl -pi -e "s/{{NAME}}/${PROJECT_NAME}/" setup.py
