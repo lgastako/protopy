@@ -32,23 +32,23 @@ things.
 
 Anyway, currently it runs through approximately these steps:
 
-    1. Create a virtual environment with $PROJECT_NAME.
-    1. Installs readline (via easy_install instead of pip, to avoid
-       known problems).
-    1. Opens the default requirements.txt in vi so that you can edit it
-       to add/remove whatever you desire.
-    1. Installs all requirements from requirements.txt (using pip -r).
-    1. Replaces {{PROJEC_NAME}} with $PROJECT_NAME in setup.py.
-    1. Installs the current application for development (via pip).
-    1. Freezes the currently installed requirements to requirements.txt.
-    1. Removes the .git directory from the initial protopy checkout.
-    1. Initializes a new git repository.
-    1. Removes itself (the begin.sh setup script).
-    1. Adds everything to the new git repository.
-    1. Commits it with a commit message of "Initial import."
-    1. Creats a new branch from master called "getting-started."
-    1. Opens textmate in the currently directory (project style).
-    1. Open the github page for the project (which doesn't exist yet).
+1. Create a virtual environment with $PROJECT_NAME.
+1. Installs readline (via easy_install instead of pip, to avoid
+   known problems).
+1. Opens the default requirements.txt in vi so that you can edit it
+   to add/remove whatever you desire.
+1. Installs all requirements from requirements.txt (using pip -r).
+1. Replaces {{PROJEC_NAME}} with $PROJECT_NAME in setup.py.
+1. Installs the current application for development (via pip).
+1. Freezes the currently installed requirements to requirements.txt.
+1. Removes the .git directory from the initial protopy checkout.
+1. Initializes a new git repository.
+1. Removes itself (the begin.sh setup script).
+1. Adds everything to the new git repository.
+1. Commits it with a commit message of "Initial import."
+1. Creats a new branch from master called "getting-started."
+1. Opens textmate in the currently directory (project style).
+1. Open the github page for the project (which doesn't exist yet).
 
 
 Usage
