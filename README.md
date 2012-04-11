@@ -68,6 +68,9 @@ And in fact you can set up a shell function like so (drop it in your .bashrc or 
 
     $ function protopy { git clone git@github.com:lgastako/protopy.git $1 && cd $1 && . ./begin.sh $1 }
 
+(Presumably you would fork this and use your own github URL here unless you
+happen to want exactly my environment).
+
 And then just use it:
 
     $ protopy foo
