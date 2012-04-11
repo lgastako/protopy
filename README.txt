@@ -14,6 +14,6 @@ And in fact you can set up a shell function like so (drop it in your .bashrc or 
 
 And then just use it:
 
-    $ prototype foo
+    $ protopy foo
 
 And there you be.
