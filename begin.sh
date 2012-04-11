@@ -13,16 +13,17 @@ echo "Autotransmogrifying into: ${PROJECT_NAME}"
 
 # We `` to get the mkvirtualenv stuff out of the bash env
 mkvirtualenv ${PROJECT_NAME}
-
+easy_install readline
 pip install -r requirements.txt
 
 perl -pi -e "s/{{NAME}}/${PROJECT_NAME}/" setup.py
 
 pip install -e .
 
-easy_install readline
-
 rm -rf .git
 
 git init
 
+\rm -rf begin.sh
+
+mate .
