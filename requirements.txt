@@ -1,5 +1,8 @@
 ipdb
 ipython
+pytest
+pytest-pep8
+pytest-capturelog
 #flask
 #werkzeug
 #jinja2
