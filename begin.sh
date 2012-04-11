@@ -36,3 +36,5 @@ git co -b getting-started
 mate .
 
 open https://github.com/lgastako/${PROJECT_NAME}
+
+pip freeze > requirements.txt
