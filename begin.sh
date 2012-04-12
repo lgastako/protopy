@@ -21,6 +21,8 @@ pip install -r requirements.txt
 
 perl -pi -e "s/{{PROJECT_NAME}}/${PROJECT_NAME}/" setup.py
 
+mv lib/PROJECT_NAME lib/${PROJECT_NAME}
+
 pip install -e .
 
 pip freeze > requirements.txt
