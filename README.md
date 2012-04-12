@@ -32,11 +32,11 @@ things.
 
 Anyway, currently it runs through approximately these steps:
 
+1. Opens the default requirements.txt in vi so that you can edit it
+   to add/remove whatever you desire.
 1. Create a virtual environment with ${PROJECT_NAME}.
 1. Installs readline (via easy_install instead of pip, to avoid
    known problems).
-1. Opens the default requirements.txt in vi so that you can edit it
-   to add/remove whatever you desire.
 1. Installs all requirements from requirements.txt (using pip -r).
 1. Replaces {{PROJECT_NAME}} with ${PROJECT_NAME} in setup.py.  
 1. Renames the lib/PROJECT_NAME directory which contains the project template
