@@ -2,12 +2,12 @@
 
 from distutils.core import setup
 
-setup(name="{{NAME}}",
+setup(name="{{PROJECT_NAME}}",
       version="0.0.1",
       description="Python Distribution Utilities",
       author="John Evans",
       author_email="lgastako@gmail.com",
-      url="https://github.com/lgastako/{{NAME}}",
+      url="https://github.com/lgastako/{{PROJECT_NAME}}",
       package_dir={"":"lib"},
       scripts=[]
 )

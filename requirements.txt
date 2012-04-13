@@ -1,7 +1,13 @@
 ipdb
 ipython
+pytest
+pytest-pep8
+pytest-capturelog
+antiorm
+psycopg2
 #flask
 #werkzeug
 #jinja2
 #pystache
 #lxml
+#redis
