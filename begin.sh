@@ -13,7 +13,7 @@ echo "Autotransmogrifying into: ${PROJECT_NAME}"
 
 . /usr/local/bin/virtualenvwrapper.sh
 
-vi requirements.txt
+mate -w -l 8 requirements.txt
 
 # TODO: Walk the tree and do this instead?
 # At least loop over a list of files.
