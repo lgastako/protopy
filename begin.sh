@@ -1,5 +1,7 @@
 #!/bin/sh
 
+trap exit SIGINT
+
 if [ "$1" = "" ]; then
     echo "You must specify exactly one name on the command line."
     exit
