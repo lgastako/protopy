@@ -15,7 +15,11 @@ echo "Autotransmogrifying into: ${PROJECT_NAME}"
 
 vi requirements.txt
 
+# TODO: Walk the tree and do this instead?
+# At least loop over a list of files.
 perl -pi -e "s/{{PROJECT_NAME}}/${PROJECT_NAME}/" setup.py
+perl -pi -e "s/{{PROJECT_NAME}}/${PROJECT_NAME}/" scripts/debugserver
+
 mv lib/PROJECT_NAME lib/${PROJECT_NAME}
 
 mate .
