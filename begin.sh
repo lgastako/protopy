@@ -20,7 +20,7 @@ mate -w -l 8 requirements.txt
 perl -pi -e "s/{{PROJECT_NAME}}/${PROJECT_NAME}/" setup.py
 perl -pi -e "s/{{PROJECT_NAME}}/${PROJECT_NAME}/" scripts/debugserver
 
-mv lib/PROJECT_NAME lib/${PROJECT_NAME}
+mv PROJECT_NAME ${PROJECT_NAME}
 
 mate .
 
@@ -46,4 +46,3 @@ git commit -a -m "Initial import."
 git co -b getting-started
 
 #open https://github.com/lgastako/${PROJECT_NAME}
-
